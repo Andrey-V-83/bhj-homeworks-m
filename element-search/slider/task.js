@@ -32,10 +32,3 @@ prevBtn.onclick = () => {
   clearActiveClass();
   addActiveClass(i - 1);
 };
-
-dotList.forEach((element, index) => {
-  element.onclick = () => {
-    clearActiveClass();
-    addActiveClass(index);
-  };
-});
